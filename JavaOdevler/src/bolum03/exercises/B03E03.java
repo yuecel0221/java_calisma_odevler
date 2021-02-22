@@ -7,22 +7,31 @@ public class B03E03 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter a");
-        int a = scanner.nextInt();
+        double a = scanner.nextDouble();
 
         System.out.println("Enter b");
-        int b = scanner.nextInt();
+        double b = scanner.nextDouble();
 
         System.out.println("Enter c");
-        int c = scanner.nextInt();
+        double c = scanner.nextDouble();
 
         System.out.println("Enter d");
-        int d = scanner.nextInt();
+        double d = scanner.nextDouble();
 
         System.out.println("Enter e");
-        int e = scanner.nextInt();
+        double e = scanner.nextDouble();
 
         System.out.println("Enter f");
-        int f = scanner.nextInt();
+        double f = scanner.nextDouble();
+
+        double x = (e * d - b * f) / (a * d - b * c);
+        double y = (a * f - e * c) / (a * d - b * c);
+
+        if (a * d - b * c == 0) {
+            System.out.println("The equation has no solution");
+        } else {
+            System.out.println("x = " + x + " y = " + y);
+        }
 
 
     }
