@@ -19,7 +19,7 @@ public class AlanHesapla {
             System.out.println("kdfljsdfkljsfd lksdjflksdjf lskdjflsdjf" +
                     "ksjdlfsjdlfjsldfklj");
             // bu ozel karakterden sonra bosluk varsa bosluklu yazar
-            System.out.println("dkjaksdjlfkjsad lksdjflksj\n     ldskjflskdjf");
+            System.out.println("dkjaksdjlfkjsad lksdjflksj\n      ldskjflskdjf");
         }
     }
 

@@ -12,11 +12,12 @@ public class SuankiSaatDeneme {
         long toplamDakika = toplamSaniye / 60;
         long suankiDakika = toplamDakika % 60;
 
-        long toplamSaat = toplamDakika / 60;
-        long suankiSaat = toplamSaat % 24;
+        long etrtt = toplamDakika / 60;
+        long suankiSaat = etrtt % 24;
 
 
         System.out.println(suankiSaat + " : " + suankiDakika + " : " + suankiSaniye + " GMT");
+
 
 
     }

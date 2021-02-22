@@ -6,7 +6,7 @@ public class B02E11 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int yilSayisi = scanner.nextInt();
-        long suankiNufus = 325932970; // int yazamaz miydim
+        long suankiNufus = 325_932_970; // int yazamaz miydim
 
         long toplamSaniye = suankiNufus * 24 * 60 * 60;
 

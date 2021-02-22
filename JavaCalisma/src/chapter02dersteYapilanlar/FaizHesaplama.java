@@ -20,7 +20,8 @@ public class FaizHesaplama {
         double aylikOdemeMiktari = (borcMiktari * aylikFaizOrani) / (1-1/Math.pow(1+aylikFaizOrani,yil*12));
         double toplamBorc = aylikOdemeMiktari * 12* yil;
 
-        System.out.println("Aylik Odeme Miktari: " + (int)(aylikOdemeMiktari * 100)/ 100.0);
+        System.out.println("Aylik Odeme Miktari: " + (int)(aylikOdemeMiktari * 100)/ 100.0
+        );
         System.out.println("Toplam Odenecek Miktar: " + toplamBorc);
 
 
