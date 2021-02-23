@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class B03E04 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int randomMonth = (int)(System.currentTimeMillis() % 13);
+        int randomMonth = (int)(System.currentTimeMillis() % 12 + 1);
         System.out.println(randomMonth);
 
         switch (randomMonth) {

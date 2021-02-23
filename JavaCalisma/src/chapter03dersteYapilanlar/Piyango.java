@@ -21,7 +21,7 @@ public class Piyango {
 		if (piyango == tahmin) {
 			System.out.println("Tebrikler bildiniz. 10000 TL kazandiniz.");
 		} else if (piyangoBirlerBasamagi == tahminOnlarBasamagi 
-				&& piyangoOnlarBasamagi == tahminBirlerBasamagi) {
+				&& piyangoOnlarBasamagi == tahminBirlerBasamagi) { //burayi andle yapti hoca ama senin cozumun daha zekice :) tşkr edrm kendiminkine tekrar bkymm
 			System.out.println("Iki rakami da tutturdunuz. 3000 TL kazandiniz.");
 		} else if (piyangoBirlerBasamagi == tahminBirlerBasamagi 
 				|| piyangoBirlerBasamagi == tahminOnlarBasamagi
