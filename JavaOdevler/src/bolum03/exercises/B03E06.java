@@ -20,7 +20,7 @@ public class B03E06 {
         final double METERS_PER_FEET = 0.3048; // Constant
 
         double weightInKilograms = weightPound * KILOGRAMS_PER_POUND;
-        double heightInMeters = (heightInch * METERS_PER_INCH)+ (heightFeet * METERS_PER_FEET);
+        double heightInMeters = (heightInch * METERS_PER_INCH) + (heightFeet * METERS_PER_FEET);
         double bki = weightInKilograms / (heightInMeters * heightInMeters);
 
         System.out.println("BKI : " + bki);
@@ -29,7 +29,7 @@ public class B03E06 {
             System.out.println("Underweight");
         } else if (bki < 25) {
             System.out.println("Normal");
-        } else if (bki < 30 ) {
+        } else if (bki < 30) {
             System.out.println("Overweight");
         } else {
             System.out.println("Obese");

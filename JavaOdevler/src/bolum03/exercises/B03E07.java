@@ -8,12 +8,12 @@ public class B03E07 {
         System.out.println("Enter total money as dollars like 15.60");
 
         double moneyAmount = scanner.nextDouble();
-        int moneyAmountAsCoins = (int)(moneyAmount * 100);
+        int moneyAmountAsCoins = (int) (moneyAmount * 100);
 
         int oneDollarNumber = moneyAmountAsCoins / 100;
         int remainCoins = moneyAmountAsCoins % 100;
 
-        int quarterNumber = remainCoins / 25 ;
+        int quarterNumber = remainCoins / 25;
         remainCoins %= 25;
 
         int dimeNumber = remainCoins / 10;
@@ -28,7 +28,7 @@ public class B03E07 {
 
         if (oneDollarNumber > 1) {
             System.out.println(oneDollarNumber + " dollars");
-        }else if (oneDollarNumber == 1) {
+        } else if (oneDollarNumber == 1) {
             System.out.println(oneDollarNumber + " dollar");
         } else {
 
@@ -36,7 +36,7 @@ public class B03E07 {
 
         if (quarterNumber > 1) {
             System.out.println(quarterNumber + " quarters");
-        } else if (quarterNumber ==1) {
+        } else if (quarterNumber == 1) {
             System.out.println(quarterNumber + " quarter");
         } else {
 
@@ -44,7 +44,7 @@ public class B03E07 {
 
         if (dimeNumber > 1) {
             System.out.println(dimeNumber + " dimes");
-        } else if (dimeNumber ==1) {
+        } else if (dimeNumber == 1) {
             System.out.println(dimeNumber + " dime");
         } else {
 
@@ -52,7 +52,7 @@ public class B03E07 {
 
         if (nickelNumber > 1) {
             System.out.println(nickelNumber + "nickels");
-        } else if (nickelNumber ==1) {
+        } else if (nickelNumber == 1) {
             System.out.println(nickelNumber + "nickel");
         } else {
 
@@ -60,7 +60,7 @@ public class B03E07 {
 
         if (pennyNumber > 1) {
             System.out.println(pennyNumber + " pennies");
-        } else if (pennyNumber ==1 ) {
+        } else if (pennyNumber == 1) {
             System.out.println(pennyNumber + " penny");
         } else {
 
