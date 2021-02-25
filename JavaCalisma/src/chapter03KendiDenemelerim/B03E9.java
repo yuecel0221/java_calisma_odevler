@@ -1,4 +1,4 @@
-package bolum03.exercises;
+package chapter03KendiDenemelerim;
 
 import java.util.Scanner;
 

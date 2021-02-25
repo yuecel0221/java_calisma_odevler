@@ -45,7 +45,7 @@ public class B03E15 {
                 || piyangoYuzlerBasamagi == tahminYuzlerBasamagi) {
             System.out.println("Bir rakam bildiniz 1000 tl odul kazandiniz");
 
-        }  else{
+        } else{
             System.out.println("Bilemediniz :(");
         }
     }

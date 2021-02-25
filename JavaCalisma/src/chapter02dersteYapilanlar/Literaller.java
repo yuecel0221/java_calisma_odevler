@@ -10,7 +10,6 @@ public class Literaller {
 
         long derkirsche = 100;
 
-
         double d = 128;
         System.out.println("d = " + d);
 
@@ -34,7 +33,5 @@ public class Literaller {
 
         float a = 1.4F;
         System.out.println(s);
-
-
     }
 }

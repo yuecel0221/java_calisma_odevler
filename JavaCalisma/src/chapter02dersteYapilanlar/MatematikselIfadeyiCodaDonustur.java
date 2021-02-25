@@ -3,7 +3,6 @@ package chapter02dersteYapilanlar;
 public class MatematikselIfadeyiCodaDonustur {
     public static void main(String[] args) {
 
-
         double x = 1;
         double y = 1;
         double a = 1;

@@ -10,7 +10,6 @@ public class KullaniciGirdisiyleAlanHesapla {
         System.out.println("Alan icin yaricap giriniz: ");
         double yaricap = girdi.nextDouble();
 
-
         // alani hesapla
         double alan = yaricap * yaricap * 3.14159;
 

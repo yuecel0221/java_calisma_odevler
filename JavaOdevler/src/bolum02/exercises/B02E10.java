@@ -16,11 +16,8 @@ public class B02E10 {
         System.out.println("Son sicakligi giriniz: ");
         double sonSicaklik = scanner.nextDouble();
 
-        double energy = (kutle * (sonSicaklik - ilkSicaklik)) * 4184; //*****
+        double energy = (kutle * (sonSicaklik - ilkSicaklik)) * 4184; 
 
         System.out.println("Gereken enerji miktari: " + energy);
-
-
-
     }
 }

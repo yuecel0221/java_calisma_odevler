@@ -15,9 +15,5 @@ public class SuankiSaat {
         long suankiSaat = toplamSaat % 24;
 
         System.out.println(suankiSaat + ": " + suankiDakika + ": " + suankiSaniye);
-
-
-
-
     }
 }

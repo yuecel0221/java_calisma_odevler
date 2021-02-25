@@ -15,7 +15,7 @@ public class VKIBen {
         final double KILOGRAMS_PER_POUND = 0.45359237; // Constant
         final double METERS_PER_INCH = 0.0254; // Constant
 
-
+dogru degil
 
         double bmi = weight / (height * height); //burda parantez kullan cunku ortalik karisabilir
 

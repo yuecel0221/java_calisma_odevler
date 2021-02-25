@@ -24,6 +24,7 @@ public class B02E11 {
 
         System.out.println(suankiNufus);
 
+        1.11 e bakilarak duzeltilecek
 
     }
 }

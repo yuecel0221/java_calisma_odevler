@@ -12,8 +12,5 @@ public class TurDonusturme {
         sayi  += 4.5;
         System.out.println(sayi);
         System.out.println(sonuc);
-
-
-
     }
 }

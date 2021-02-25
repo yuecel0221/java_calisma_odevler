@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class VergiMiktari {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        
         System.out.println("please enter pruchase amount");
         double purchaseAmount = scanner.nextDouble();
 
