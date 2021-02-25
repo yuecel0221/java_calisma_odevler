@@ -8,7 +8,7 @@ public class B03E15 {
 
         int piyango = (int) (Math.random() * 900) + 100;
 
-
+        System.out.println(piyango);
         System.out.println("Piayngo icin iki basamakli bir sayi tahmin ediniz: ");
         int tahmin = scanner.nextInt();
 
@@ -23,17 +23,29 @@ public class B03E15 {
         System.out.println("Piyango numarasi: " + piyango);
 
         if (piyango == tahmin) {
-            System.out.println("Tebrikler bildiniz. 10000 TL kazandiniz.");
-        } else if (piyangoBirlerBasamagi == tahminOnlarBasamagi
-                && piyangoOnlarBasamagi == tahminBirlerBasamagi
-                && piyangoYuzlerBasamagi == tahminYuzlerBasamagi) {
-            System.out.println("Iki rakami da tutturdunuz. 3000 TL kazandiniz.");
+            System.out.println("Tebrikler piyangoyu bildiniz. 10000 TL kazandiniz.");
+        } else if ((piyangoBirlerBasamagi == tahminBirlerBasamagi
+                || piyangoBirlerBasamagi == tahminOnlarBasamagi
+                || piyangoBirlerBasamagi == tahminYuzlerBasamagi) &&
+                (piyangoOnlarBasamagi == tahminBirlerBasamagi
+                        || piyangoOnlarBasamagi == tahminOnlarBasamagi
+                        || piyangoOnlarBasamagi == tahminYuzlerBasamagi) &&
+                (piyangoYuzlerBasamagi == tahminBirlerBasamagi
+                        || piyangoYuzlerBasamagi == tahminOnlarBasamagi
+                        || piyangoYuzlerBasamagi == tahminYuzlerBasamagi)) {
+            System.out.println("Rakamlar ayni ama siralamayi tutturamadiniz. 3000 TL kazandiniz.");
         } else if (piyangoBirlerBasamagi == tahminBirlerBasamagi
                 || piyangoBirlerBasamagi == tahminOnlarBasamagi
+                || piyangoBirlerBasamagi == tahminYuzlerBasamagi
                 || piyangoOnlarBasamagi == tahminBirlerBasamagi
-                || piyangoOnlarBasamagi == tahminOnlarBasamagi) {
-            System.out.println("Bir rakam tutturdunuz. 1000 TL kazandiniz.");
-        } else {
+                || piyangoOnlarBasamagi == tahminOnlarBasamagi
+                || piyangoOnlarBasamagi == tahminYuzlerBasamagi
+                || piyangoYuzlerBasamagi == tahminBirlerBasamagi
+                || piyangoYuzlerBasamagi == tahminOnlarBasamagi
+                || piyangoYuzlerBasamagi == tahminYuzlerBasamagi) {
+            System.out.println("Bir rakam bildiniz 1000 tl odul kazandiniz");
+
+        }  else{
             System.out.println("Bilemediniz :(");
         }
     }
