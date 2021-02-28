@@ -1,7 +1,5 @@
 package bolum02.exercises;
 
-import java.util.Scanner;
-
 public class B02E18 {
     public static void main(String[] args) {
         System.out.println("a     b     pow(a,b)");
