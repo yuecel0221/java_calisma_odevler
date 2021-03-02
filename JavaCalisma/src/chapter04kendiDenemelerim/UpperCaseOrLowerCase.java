@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class UpperCaseOrLowerCase {
     public static void main(String[] args) {
+        char ece = '\u2764';
+        //char ece1 = '\u2130';
+        System.out.println(ece);
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter a character: ");
