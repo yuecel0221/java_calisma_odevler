@@ -1,6 +1,6 @@
 package chapter04kendiDenemelerim;
 
-public class SubstringExample {
+public class SubstringAndReplaceExample {
     public static void main(String[] args) {
         String str1 = "Merhaba Java";
         String str2 = str1.substring(6);
