@@ -5,6 +5,5 @@ public class B04A06 {
         //The Math class is in the java.lang package.
         //Any class in the java.lang package is automatically imported.
         //So there is no need to import it.
-        System.out.println("çok");
     }
 }
